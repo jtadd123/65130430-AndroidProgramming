@@ -12,12 +12,28 @@
 ---
 *Quá trình thực hiện bài tập*
 
-### Bài tập 12: Chuyển màn hình (ListViewMultiDataApp)
+### Bài tập 14: Chuyển màn hình (ListViewMultiDataApp)
 [Chi tiết bài tập](./ListViewMultiDataApp/app/src/main/java/com/dat/listviewmultidataapp/MainActivity.java)
 
 ![ListViewMultiDataApp Screenshot 1](./Images/menudoimanhinh01.jpg)
 ![ListViewMultiDataApp Screenshot 2](./Images/menudoimanhinh02.jpg)
 *Ứng dụng hiển thị danh sách dữ liệu phức hợp và thực hiện chuyển đổi giữa các màn hình.*
+
+---
+
+### Bài tập 13: Đọc báo tổng hợp (DocBaoTongHop)
+[Chi tiết bài tập](./DocBaoTongHop/app/src/main/java/com/dat/docbaotonghop/MainActivity.java)
+
+![DocBaoTongHop Screenshot](./Images/docbaotonghop.jpg)
+*Ứng dụng đọc báo với giao diện danh sách các tin tức tổng hợp.*
+
+---
+
+### Bài tập 12: Danh sách cảnh quan (DanhSachCanhQuan)
+[Chi tiết bài tập](./DanhSachCanhQuan/app/src/main/java/com/dat/danhsachcanhquan/MainActivity.java)
+
+![DanhSachCanhQuan Screenshot](./Images/danhsachcanhquan.jpg)
+*Ứng dụng hiển thị danh sách các cảnh quan đẹp sử dụng Custom Adapter.*
 
 ---
 
