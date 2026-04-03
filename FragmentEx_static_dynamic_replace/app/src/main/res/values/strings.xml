@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Android Fragments</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Footer navigation buttons -->
+    <string name="nav_one">Trang chủ</string>
+    <string name="nav_two">Bài học</string>
+    <string name="nav_three">Thống kê</string>
+
+    <!-- Fragment 1 -->
+    <string name="frg1_title">Học Android Fragment</string>
+    <string name="frg1_desc">Fragment là thành phần giao diện có thể tái sử dụng, giúp xây dựng UI linh hoạt và hiện đại trên Android.</string>
+    <string name="frg1_card_title">Fragment là gì?</string>
+    <string name="frg1_card_sub">Fragment đại diện cho một phần giao diện hoặc hành vi trong Activity. Có thể kết hợp nhiều Fragment trong một Activity để tạo giao diện đa dạng.</string>
+    <string name="frg1_btn_explore">Xem bài học</string>
+
+    <!-- Fragment 2 -->
+    <string name="frg2_badge">Bài học</string>
+    <string name="frg2_title">Fragment Động</string>
+    <string name="frg2_sub">Fragment Động cho phép thêm, thay thế hoặc xoá Fragment trong lúc ứng dụng đang chạy thông qua FragmentManager và FragmentTransaction.</string>
+    <string name="frg2_btn_primary">Thực hành</string>
+    <string name="frg2_btn_secondary">Lý thuyết</string>
+
+    <!-- Fragment 3 -->
+    <string name="frg3_header">Thống kê dự án</string>
+    <string name="frg3_hint">Tổng quan các thành phần trong bài thực hành Fragment.</string>
+    <string name="frg3_card_a_title">Tổng Fragment</string>
+    <string name="frg3_card_a_sub">Số Fragment sử dụng trong dự án</string>
+    <string name="frg3_value_a">5</string>
+    <string name="frg3_card_b_title">Màn hình</string>
+    <string name="frg3_card_b_sub">Số màn hình có thể điều hướng</string>
+    <string name="frg3_value_b">3</string>
+    <string name="frg3_card_c_title">Loại Fragment</string>
+    <string name="frg3_card_c_sub">Tĩnh (Static) + Động (Dynamic)</string>
+    <string name="frg3_value_c">2</string>
+
+    <!-- Content Fragment -->
+    <string name="content_hello">ContentFragment</string>
+</resources>

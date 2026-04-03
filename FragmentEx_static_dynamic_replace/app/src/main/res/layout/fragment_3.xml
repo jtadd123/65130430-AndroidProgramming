@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fragment3"
+    tools:context=".Fragment3">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/frg3_header"
+        android:textColor="#1A0533"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/frg3_hint"
+        android:textColor="#6B5B8A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHeader" />
+
+    <!-- Card A -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="22dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHint">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp">
+
+            <TextView
+                android:id="@+id/tvATitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_card_a_title"
+                android:textColor="#1A0533"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/tvAValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvASub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/frg3_card_a_sub"
+                android:textColor="#9B8DBD"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@id/tvAValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvATitle" />
+
+            <TextView
+                android:id="@+id/tvAValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_value_a"
+                android:textColor="#0D47EC"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Card B -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardA">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp">
+
+            <TextView
+                android:id="@+id/tvBTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_card_b_title"
+                android:textColor="#1A0533"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/tvBValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvBSub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/frg3_card_b_sub"
+                android:textColor="#9B8DBD"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@id/tvBValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvBTitle" />
+
+            <TextView
+                android:id="@+id/tvBValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_value_b"
+                android:textColor="#F57C00"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Card C -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardB">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp">
+
+            <TextView
+                android:id="@+id/tvCTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_card_c_title"
+                android:textColor="#1A0533"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/tvCValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvCSub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/frg3_card_c_sub"
+                android:textColor="#9B8DBD"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@id/tvCValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCTitle" />
+
+            <TextView
+                android:id="@+id/tvCValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frg3_value_c"
+                android:textColor="#8B5CF6"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
