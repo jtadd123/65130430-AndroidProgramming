@@ -12,6 +12,16 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 15: Học Android Fragment (FragmentEx_static_dynamic_replace)
+[Chi tiết bài tập](./FragmentEx_static_dynamic_replace/app/src/main/java/com/dat/fragmentex_static_dynamic_replace/MainActivity.java)
+
+![Fragment Screenshot 1](./Images/fragment1.jpg)
+![Fragment Screenshot 2](./Images/fragment2.jpg)
+![Fragment Screenshot 3](./Images/fragment3.jpg)
+*Ứng dụng minh họa cách sử dụng Fragment tĩnh, Fragment động và thay thế (replace) Fragment trong Android.*
+
+---
+
 ### Bài tập 14: Chuyển màn hình (ListViewMultiDataApp)
 [Chi tiết bài tập](./ListViewMultiDataApp/app/src/main/java/com/dat/listviewmultidataapp/MainActivity.java)
 
