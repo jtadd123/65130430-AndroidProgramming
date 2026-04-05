@@ -12,6 +12,18 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 16: Ôn tập Bottom Navigation Menu (OnThi_BottomNavigationMenu)
+[Chi tiết bài tập](./OnThi_BottomNavigationMenu/app/src/main/java/thi/dat65130430/onthi_bottomnavigationmenu/MainActivity.java)
+
+![Bottom Navigation Screenshot 1](./Images/BottomNavigationView1.jpg)
+![Bottom Navigation Screenshot 2](./Images/BottomNavigationView2.jpg)
+![Bottom Navigation Screenshot 3](./Images/BottomNavigationView3.jpg)
+![Bottom Navigation Screenshot 4](./Images/BottomNavigationView4.jpg)
+![Bottom Navigation Screenshot 5](./Images/BottomNavigationView5.jpg)
+*Ứng dụng ôn tập sử dụng Bottom Navigation Menu để chuyển đổi giữa các Fragment (Trang chủ, Bài học, Thống kê).*
+
+---
+
 ### Bài tập 15: Học Android Fragment (FragmentEx_static_dynamic_replace)
 [Chi tiết bài tập](./FragmentEx_static_dynamic_replace/app/src/main/java/com/dat/fragmentex_static_dynamic_replace/MainActivity.java)
 
