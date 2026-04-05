@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme (night mode) -->
+    <style name="Base.Theme.OnThi_BottomNavigationMenu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="android:windowBackground">#1A1A2E</item>
+    </style>
+
+    <style name="Theme.OnThi_BottomNavigationMenu" parent="Base.Theme.OnThi_BottomNavigationMenu" />
+</resources>

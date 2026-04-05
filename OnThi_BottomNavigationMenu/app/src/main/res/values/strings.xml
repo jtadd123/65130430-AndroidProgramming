@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bài Thi Android</string>
+    <string name="hello_blank_fragment">Chưa có nội dung</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_cau1">Câu 1</string>
+    <string name="nav_cau2">Câu 2</string>
+    <string name="nav_cau3">Câu 3</string>
+    <string name="nav_cau4">Câu 4</string>
+</resources>

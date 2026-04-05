@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_welcome"
+        android:icon="@drawable/ic_nav_home"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/navigation_cau1"
+        android:icon="@drawable/ic_nav_cau1"
+        android:title="Câu 1" />
+
+    <item
+        android:id="@+id/navigation_cau2"
+        android:icon="@drawable/ic_nav_cau2"
+        android:title="Câu 2" />
+
+    <item
+        android:id="@+id/navigation_cau3"
+        android:icon="@drawable/ic_nav_cau3"
+        android:title="Câu 3" />
+
+    <item
+        android:id="@+id/navigation_cau4"
+        android:icon="@drawable/ic_nav_cau4"
+        android:title="Câu 4" />
+
+</menu>
