@@ -34,7 +34,5 @@ public class ChucNang4Activity extends AppCompatActivity {
         btnQuayLai.setOnClickListener(v -> {
             finish(); // Dong Activity hien tai, quay lai man hinh chinh
         });
-
-        // Se them logic o phan sau
     }
 }
