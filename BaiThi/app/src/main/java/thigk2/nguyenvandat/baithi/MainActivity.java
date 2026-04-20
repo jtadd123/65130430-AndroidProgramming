@@ -40,19 +40,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Su kien click nut Chuc nang 2 - Dung Intent de chuyen man hinh
         btnChucNang2.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ChucNang2Activity.class);
             startActivity(intent);
         });
 
-        // Su kien click nut Chuc nang 3 - Dung Intent de chuyen man hinh
         btnChucNang3.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ChucNang3Activity.class);
             startActivity(intent);
         });
 
-        // Su kien click nut Chuc nang 4 - Dung Intent de chuyen man hinh
         btnChucNang4.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ChucNang4Activity.class);
             startActivity(intent);
