@@ -1,6 +1,7 @@
 package thigk2.nguyenvandat.baithi;
 
 import android.os.Bundle;
+import android.widget.Toast;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +23,11 @@ public class ChucNang2Activity extends AppCompatActivity {
     // Khai bao thanh phan giao dien
     ListView lvThanhPho;
     Button btnQuayLai;
+
+    // Mang luu ten thanh pho
+    ArrayList<String> danhSachThanhPho = new ArrayList<>();
+    // Mang luu icon cho tung thanh pho
+    ArrayList<String> danhSachIcon = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,19 +51,18 @@ public class ChucNang2Activity extends AppCompatActivity {
             finish(); // Dong Activity hien tai, quay lai man hinh chinh
         });
 
-        // Tao danh sach 10 tinh/thanh pho Viet Nam
-        ArrayList<String> danhSachThanhPho = new ArrayList<>();
-        danhSachThanhPho.add("Hà Nội");
-        danhSachThanhPho.add("Hồ Chí Minh");
-        danhSachThanhPho.add("Đà Nẵng");
-        danhSachThanhPho.add("Hải Phòng");
-        danhSachThanhPho.add("Cần Thơ");
-        danhSachThanhPho.add("Nha Trang");
-        danhSachThanhPho.add("Huế");
-        danhSachThanhPho.add("Phú Yên");
-        danhSachThanhPho.add("Đà Lạt");
+        // Tao danh sach 10 tinh/thanh pho Viet Nam voi icon tuong ung
+        danhSachThanhPho.add("Hà Nội");           danhSachIcon.add("🏛️");
+        danhSachThanhPho.add("Hồ Chí Minh");      danhSachIcon.add("🏙️");
+        danhSachThanhPho.add("Đà Nẵng");           danhSachIcon.add("🌉");
+        danhSachThanhPho.add("Hải Phòng");         danhSachIcon.add("⚓");
+        danhSachThanhPho.add("Cần Thơ");           danhSachIcon.add("🚣");
+        danhSachThanhPho.add("Nha Trang");         danhSachIcon.add("🏖️");
+        danhSachThanhPho.add("Huế");               danhSachIcon.add("🏯");
+        danhSachThanhPho.add("Phú Yên");           danhSachIcon.add("🌾");
+        danhSachThanhPho.add("Đà Lạt");            danhSachIcon.add("🌸");
         // Thanh pho dac biet: Ho va Ten cua sinh vien
-        danhSachThanhPho.add("Nguyễn Văn Đạt");
+        danhSachThanhPho.add("Nguyễn Văn Đạt");   danhSachIcon.add("⭐");
 
         // Tao adapter tuy chinh de hien thi danh sach dep hon
         BaseAdapter adapter = new BaseAdapter() {
@@ -85,14 +90,16 @@ public class ChucNang2Activity extends AppCompatActivity {
                 }
 
                 // Anh xa cac thanh phan trong item
+                TextView txtIcon = convertView.findViewById(R.id.txtIcon);
                 TextView txtSoThuTu = convertView.findViewById(R.id.txtSoThuTu);
                 TextView txtTenThanhPho = convertView.findViewById(R.id.txtTenThanhPho);
 
                 // Gan du lieu
+                txtIcon.setText(danhSachIcon.get(position));
                 txtSoThuTu.setText(String.valueOf(position + 1));
                 txtTenThanhPho.setText(danhSachThanhPho.get(position));
 
-                // Thanh pho dac biet (ten sinh vien) thi doi mau
+                // Thanh pho dac biet (ten sinh vien) thi doi mau noi bat
                 if (position == danhSachThanhPho.size() - 1) {
                     txtTenThanhPho.setTextColor(0xFF2E7D32); // Mau xanh la dam
                     txtTenThanhPho.setTextSize(18);
@@ -109,5 +116,12 @@ public class ChucNang2Activity extends AppCompatActivity {
 
         // Gan adapter cho ListView
         lvThanhPho.setAdapter(adapter);
+
+        // Xu ly su kien click vao tung thanh pho trong danh sach
+        lvThanhPho.setOnItemClickListener((parent, view, position, id) -> {
+            String tenThanhPho = danhSachThanhPho.get(position);
+            Toast.makeText(ChucNang2Activity.this,
+                    "Bạn đã chọn: " + tenThanhPho, Toast.LENGTH_SHORT).show();
+        });
     }
 }

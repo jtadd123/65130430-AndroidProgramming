@@ -1,6 +1,7 @@
 package thigk2.nguyenvandat.baithi;
 
 import android.os.Bundle;
+import android.widget.Toast;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -97,6 +98,13 @@ public class ChucNang3Activity extends AppCompatActivity {
 
         // Gan adapter cho ListView
         lvDiemDuLich.setAdapter(adapter);
+
+        // Xu ly su kien click vao tung diem du lich trong danh sach
+        lvDiemDuLich.setOnItemClickListener((parent, view, position, id) -> {
+            String tenDiaDiem = danhSachTen.get(position);
+            Toast.makeText(ChucNang3Activity.this,
+                    "Bạn đã chọn: " + tenDiaDiem, Toast.LENGTH_SHORT).show();
+        });
     }
 
     // Ham them du lieu 5 diem du lich Nha Trang

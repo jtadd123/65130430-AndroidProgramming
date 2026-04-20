@@ -44,28 +44,28 @@
                 android:layout_marginEnd="48dp"/>
         </LinearLayout>
 
-        <!-- Phan anh dai dien -->
+        <!-- Phan anh dai dien va ten -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
             android:background="#7B1FA2"
-            android:padding="24dp">
+            android:padding="28dp">
 
             <ImageView
                 android:id="@+id/imgAvatar"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
                 android:src="@drawable/avt"
                 android:scaleType="centerCrop"
-                android:layout_marginBottom="12dp"/>
+                android:layout_marginBottom="14dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nguyễn Văn Đạt"
-                android:textSize="22sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="4dp"/>
@@ -73,9 +73,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Sinh viên Đại học Nha Trang"
+                android:textSize="14sp"
+                android:textColor="#E1BEE7"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="MSSV: 65130430"
-                android:textSize="15sp"
-                android:textColor="#E1BEE7"/>
+                android:textSize="14sp"
+                android:textColor="#CE93D8"/>
         </LinearLayout>
 
         <!-- Phan thong tin chi tiet -->
@@ -90,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="👤 Họ và Tên"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textColor="#9E9E9E"
                 android:layout_marginBottom="4dp"/>
 
@@ -101,16 +109,16 @@
                 android:textSize="17sp"
                 android:textColor="#333333"
                 android:textStyle="bold"
-                android:padding="12dp"
+                android:padding="14dp"
                 android:background="#FFFFFF"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="14dp"/>
 
-            <!-- Muc Ma so -->
+            <!-- Muc Ma so sinh vien -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="🎓 Mã số sinh viên"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textColor="#9E9E9E"
                 android:layout_marginBottom="4dp"/>
 
@@ -121,16 +129,93 @@
                 android:textSize="17sp"
                 android:textColor="#333333"
                 android:textStyle="bold"
-                android:padding="12dp"
+                android:padding="14dp"
                 android:background="#FFFFFF"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Ngay sinh -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎂 Ngày sinh"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15/08/2003"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:padding="14dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Noi sinh -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏥 Nơi sinh"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuy An, Phú Yên"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:padding="14dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Que quan -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏡 Quê quán"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xã An Dân, Huyện Tuy An, Tỉnh Phú Yên"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:padding="14dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Dia chi hien tai -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 Địa chỉ hiện tại"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KTX K7, Trường Đại học Nha Trang, TP. Nha Trang, Khánh Hòa"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:padding="14dp"
+                android:background="#FFFFFF"
+                android:lineSpacingExtra="3dp"
+                android:layout_marginBottom="14dp"/>
 
             <!-- Muc So thich -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="⚽ Sở thích"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textColor="#9E9E9E"
                 android:layout_marginBottom="4dp"/>
 
@@ -140,17 +225,17 @@
                 android:text="Đam mê bóng đá - Thích tham gia vào các trận đấu có tốc độ cao, phối hợp nhóm nhịp nhàng. Thần tượng: Lionel Messi và Cristiano Ronaldo. Thường xuyên cập nhật tin tức bóng đá trẻ, đặc biệt là các tài năng tại quê hương Phú Yên."
                 android:textSize="15sp"
                 android:textColor="#333333"
-                android:padding="12dp"
+                android:padding="14dp"
                 android:background="#FFFFFF"
                 android:lineSpacingExtra="4dp"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="14dp"/>
 
             <!-- Muc So truong -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="💪 Sở trường"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textColor="#9E9E9E"
                 android:layout_marginBottom="4dp"/>
 
@@ -160,10 +245,51 @@
                 android:text="Sự nhanh nhẹn và linh hoạt - Tận dụng tốc độ và sự khéo léo trong thể thao. Khả năng nắm bắt vấn đề nhanh, đặc biệt trong lĩnh vực công nghệ và lập trình. Phản ứng linh hoạt trước các tình huống thay đổi."
                 android:textSize="15sp"
                 android:textColor="#333333"
-                android:padding="12dp"
+                android:padding="14dp"
                 android:background="#FFFFFF"
                 android:lineSpacingExtra="4dp"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Uoc mo -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Ước mơ"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trở thành một lập trình viên chuyên nghiệp, phát triển các ứng dụng di động hữu ích phục vụ cộng đồng. Mong muốn đóng góp vào sự phát triển công nghệ tại quê hương Phú Yên và Việt Nam."
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:padding="14dp"
+                android:background="#FFFFFF"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- Muc Phuong cham song -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💬 Phương châm sống"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="&quot;Không có giới hạn nào cho người dám ước mơ và hành động. Mỗi ngày là một cơ hội mới để trở nên tốt hơn.&quot;"
+                android:textSize="15sp"
+                android:textColor="#6A1B9A"
+                android:textStyle="italic"
+                android:padding="14dp"
+                android:background="#F3E5F5"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
 
         </LinearLayout>
 
