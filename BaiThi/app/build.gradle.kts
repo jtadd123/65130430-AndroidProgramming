@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "thigk2.nguyenvandat.baithi"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "thigk2.nguyenvandat.baithi"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

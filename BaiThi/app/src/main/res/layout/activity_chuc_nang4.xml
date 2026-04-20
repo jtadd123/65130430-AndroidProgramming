@@ -9,6 +9,17 @@
     android:background="#F5F5F5"
     tools:context=".ChucNang4Activity">
 
+    <!-- Nut quay lai -->
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Quay lại"
+        android:textSize="14sp"
+        android:backgroundTint="#78909C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
     <!-- Tieu de -->
     <TextView
         android:layout_width="wrap_content"

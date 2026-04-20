@@ -17,7 +17,7 @@ public class ChucNang1Activity extends AppCompatActivity {
 
     // Khai bao cac thanh phan giao dien
     EditText edtChieuDai, edtChieuRong;
-    Button btnTinhToan;
+    Button btnTinhToan, btnQuayLai;
     TextView txtKetQua;
 
     @Override
@@ -37,7 +37,13 @@ public class ChucNang1Activity extends AppCompatActivity {
         edtChieuDai = findViewById(R.id.edtChieuDai);
         edtChieuRong = findViewById(R.id.edtChieuRong);
         btnTinhToan = findViewById(R.id.btnTinhToan);
+        btnQuayLai = findViewById(R.id.btnQuayLai);
         txtKetQua = findViewById(R.id.txtKetQua);
+
+        // Su kien click nut Quay lai
+        btnQuayLai.setOnClickListener(v -> {
+            finish(); // Dong Activity hien tai, quay lai man hinh chinh
+        });
 
         // Su kien click nut Tinh toan
         btnTinhToan.setOnClickListener(v -> {
