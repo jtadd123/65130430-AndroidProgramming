@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Anh xa cac nut bam
+        // Anh xa cac nut bam tu layout
         btnChucNang1 = findViewById(R.id.btnChucNang1);
         btnChucNang2 = findViewById(R.id.btnChucNang2);
         btnChucNang3 = findViewById(R.id.btnChucNang3);
@@ -36,23 +36,26 @@ public class MainActivity extends AppCompatActivity {
 
         // Su kien click nut Chuc nang 1 - Dung Intent de chuyen man hinh
         btnChucNang1.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang1Activity.class);
-            startActivity(intent);
+            Intent mangHinh1 = new Intent(MainActivity.this, ChucNang1Activity.class);
+            startActivity(mangHinh1);
         });
 
+        // Su kien click nut Chuc nang 2 - Dung Intent de chuyen man hinh
         btnChucNang2.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang2Activity.class);
-            startActivity(intent);
+            Intent mangHinh2 = new Intent(MainActivity.this, ChucNang2Activity.class);
+            startActivity(mangHinh2);
         });
 
+        // Su kien click nut Chuc nang 3 - Dung Intent de chuyen man hinh
         btnChucNang3.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang3Activity.class);
-            startActivity(intent);
+            Intent mangHinh3 = new Intent(MainActivity.this, ChucNang3Activity.class);
+            startActivity(mangHinh3);
         });
 
+        // Su kien click nut Chuc nang 4 - Dung Intent de chuyen man hinh
         btnChucNang4.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang4Activity.class);
-            startActivity(intent);
+            Intent mangHinh4 = new Intent(MainActivity.this, ChucNang4Activity.class);
+            startActivity(mangHinh4);
         });
     }
 }
