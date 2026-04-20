@@ -11,15 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BaiThi">
+
+        <!-- Man hinh chinh -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Chuc nang 1: Tinh chu vi va dien tich -->
+        <activity android:name=".ChucNang1Activity" />
+
+        <!-- Chuc nang 2: Danh sach tinh thanh pho -->
+        <activity android:name=".ChucNang2Activity" />
+
+        <!-- Chuc nang 3: Diem du lich Nha Trang -->
+        <activity android:name=".ChucNang3Activity" />
+
+        <!-- Chuc nang 4: Thong tin ca nhan -->
+        <activity android:name=".ChucNang4Activity" />
+
     </application>
 
 </manifest>
