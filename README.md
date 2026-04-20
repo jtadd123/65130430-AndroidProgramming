@@ -12,6 +12,18 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài Thi Giữa Kỳ: Ứng dụng tổng hợp (BaiThi)
+[Chi tiết bài tập](./BaiThi/app/src/main/java/thigk2/nguyenvandat/baithi/MainActivity.java)
+
+![BaiThi Home](./Images/home.jpg)
+![BaiThi Chức năng 1](./Images/chucnang1.jpg)
+![BaiThi Chức năng 2](./Images/chucnang2.jpg)
+![BaiThi Chức năng 3](./Images/chucnang3.jpg)
+![BaiThi Chức năng 4](./Images/chucnang4.jpg)
+*Ứng dụng thi giữa kỳ gồm 4 chức năng: Tính chu vi & diện tích hình chữ nhật, Danh sách thành phố (ListView tùy chỉnh), Điểm du lịch Nha Trang (ListView với hình ảnh), và Thông tin cá nhân.*
+
+---
+
 ### Bài tập 16: Ôn tập Bottom Navigation Menu (OnThi_BottomNavigationMenu)
 [Chi tiết bài tập](./OnThi_BottomNavigationMenu/app/src/main/java/thi/dat65130430/onthi_bottomnavigationmenu/MainActivity.java)
 

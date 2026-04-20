@@ -145,7 +145,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="15/08/2003"
+                android:text="27/12/2005"
                 android:textSize="17sp"
                 android:textColor="#333333"
                 android:padding="14dp"
