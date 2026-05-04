@@ -24,6 +24,15 @@
 
 ---
 
+### Bài tập 17: Quản lý chi tiêu - Firebase Example (QuanLyChiTieu)
+[Chi tiết bài tập](./QuanLyChiTieu/app/src/main/java/dat/nguyenvan/quanlychitieu/MainActivity.java)
+
+![QuanLyChiTieu Screenshot 1](./Images/quanlichitieu.jpg)
+![QuanLyChiTieu Screenshot 2](./Images/quanlychitieu2.jpg)
+*Ứng dụng quản lý chi tiêu tích hợp Firebase Realtime Database. Thực hiện đọc/ghi dữ liệu lên Firebase và hiển thị kết quả qua Toast.*
+
+---
+
 ### Bài tập 16: Ôn tập Bottom Navigation Menu (OnThi_BottomNavigationMenu)
 [Chi tiết bài tập](./OnThi_BottomNavigationMenu/app/src/main/java/thi/dat65130430/onthi_bottomnavigationmenu/MainActivity.java)
 
