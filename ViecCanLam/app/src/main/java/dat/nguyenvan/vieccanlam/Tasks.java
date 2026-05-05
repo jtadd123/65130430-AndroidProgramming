@@ -7,11 +7,11 @@ public class Tasks implements Serializable {
     String name;
     String date;
     String message;
-    String prority;
+    String priority;
 
-    public Tasks(String name, String prority, String message, String date) {
+    public Tasks(String name, String priority, String message, String date) {
         this.name = name;
-        this.prority = prority;
+        this.priority = priority;
         this.message = message;
         this.date = date;
     }
@@ -27,12 +27,12 @@ public class Tasks implements Serializable {
         this.message = message;
     }
 
-    public String getPrority() {
-        return prority;
+    public String getPriority() {
+        return priority;
     }
 
-    public void setPrority(String prority) {
-        this.prority = prority;
+    public void setPriority(String priority) {
+        this.priority = priority;
     }
 
     public String getName() {
@@ -50,13 +50,13 @@ public class Tasks implements Serializable {
     public void setDate(String date) {
         this.date = date;
     }
-    public HashMap <String,String> toFirebaseObject(){
-        HashMap<String,String> taskObject = new HashMap<String,String>();
-        taskObject.put("name",name);
-        taskObject.put("prority",prority);
-        taskObject.put("message",message);
-        taskObject.put("date",date);
+
+    public HashMap<String, Object> toFirebaseObject() {
+        HashMap<String, Object> taskObject = new HashMap<String, Object>();
+        taskObject.put("name", name);
+        taskObject.put("priority", priority);
+        taskObject.put("message", message);
+        taskObject.put("date", date);
         return taskObject;
     }
 }
-

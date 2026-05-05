@@ -5,11 +5,7 @@ plugins {
 
 android {
     namespace = "dat.nguyenvan.vieccanlam"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "dat.nguyenvan.vieccanlam"
