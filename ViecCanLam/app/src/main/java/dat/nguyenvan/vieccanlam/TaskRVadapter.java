@@ -20,7 +20,7 @@ public class TaskRVadapter extends RecyclerView.Adapter<TaskRVadapter.TaskItemVi
         this.dataSource = dataSource;
     }
 
-    public final class TaskItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public final class TaskItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
         TextView tvTenVCL;
         TextView tvNgayHetHan;
         TextView tvMessage;
@@ -30,6 +30,7 @@ public class TaskRVadapter extends RecyclerView.Adapter<TaskRVadapter.TaskItemVi
         public TaskItemViewHolder(@NonNull View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
+            itemView.setOnLongClickListener(this);
             tvTenVCL = itemView.findViewById(R.id.textViewTenVCL);
             tvNgayHetHan = itemView.findViewById(R.id.textViewThoiGian);
             tvMessage = itemView.findViewById(R.id.textViewMessage);
@@ -42,6 +43,55 @@ public class TaskRVadapter extends RecyclerView.Adapter<TaskRVadapter.TaskItemVi
             int vtClicked = getAdapterPosition();
             Tasks taskClicked = dataSource.get(vtClicked);
             Toast.makeText(v.getContext(), "Bạn vừa chọn việc " + taskClicked.getName(), Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public boolean onLongClick(View v) {
+            int vtClicked = getAdapterPosition();
+            if (vtClicked == RecyclerView.NO_POSITION) return false;
+            Tasks taskClicked = dataSource.get(vtClicked);
+
+            android.widget.PopupMenu popup = new android.widget.PopupMenu(v.getContext(), v);
+            popup.getMenu().add("Chỉnh sửa");
+            popup.getMenu().add("Xóa");
+            popup.setOnMenuItemClickListener(new android.widget.PopupMenu.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(android.view.MenuItem item) {
+                    if (item.getTitle().equals("Chỉnh sửa")) {
+                        android.content.Intent intent = new android.content.Intent(v.getContext(), ThemTaskActivity.class);
+                        intent.putExtra("id", taskClicked.getId());
+                        intent.putExtra("name", taskClicked.getName());
+                        intent.putExtra("date", taskClicked.getDate());
+                        intent.putExtra("message", taskClicked.getMessage());
+                        intent.putExtra("priority", taskClicked.getPriority());
+                        v.getContext().startActivity(intent);
+                    } else if (item.getTitle().equals("Xóa")) {
+                        new android.app.AlertDialog.Builder(v.getContext())
+                                .setTitle("Xác nhận xóa")
+                                .setMessage("Bạn có chắc chắn muốn xóa công việc này không?")
+                                .setPositiveButton("Xóa", new android.content.DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(android.content.DialogInterface dialog, int which) {
+                                        com.google.firebase.database.FirebaseDatabase.getInstance()
+                                                .getReference("Task")
+                                                .child(taskClicked.getId())
+                                                .removeValue()
+                                                .addOnSuccessListener(new com.google.android.gms.tasks.OnSuccessListener<Void>() {
+                                                    @Override
+                                                    public void onSuccess(Void aVoid) {
+                                                        Toast.makeText(v.getContext(), "Bạn đã xóa công việc", Toast.LENGTH_SHORT).show();
+                                                    }
+                                                });
+                                    }
+                                })
+                                .setNegativeButton("Hủy", null)
+                                .show();
+                    }
+                    return true;
+                }
+            });
+            popup.show();
+            return true;
         }
     }
 

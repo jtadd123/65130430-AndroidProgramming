@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             lstVCL.clear();
             for (DataSnapshot obj : snapshot.getChildren()) {
                 Tasks task = new Tasks();
+                task.setId(obj.getKey());
                 task.setName(String.valueOf(obj.child("name").getValue()));
                 task.setDate(String.valueOf(obj.child("date").getValue()));
                 task.setMessage(String.valueOf(obj.child("message").getValue()));

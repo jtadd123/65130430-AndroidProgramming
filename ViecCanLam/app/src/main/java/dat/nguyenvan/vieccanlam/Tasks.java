@@ -8,6 +8,7 @@ public class Tasks implements Serializable {
     String date;
     String message;
     String priority;
+    String id;
 
     public Tasks(String name, String priority, String message, String date) {
         this.name = name;
@@ -17,6 +18,14 @@ public class Tasks implements Serializable {
     }
 
     public Tasks() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getMessage() {
