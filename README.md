@@ -24,6 +24,16 @@
 
 ---
 
+### Bài tập 19: Đăng nhập & Đăng ký - Firebase Authentication (BonnusLogin)
+[Chi tiết bài tập](./BonnusLogin/app/src/main/java/dat/nguyenvan/bonnuslogin/LoginActivity.java)
+
+![BonnusLogin Login](./Images/login.jpg)
+![BonnusLogin Register](./Images/login1.jpg)
+![BonnusLogin Home](./Images/login2.jpg)
+*Ứng dụng thực hiện chức năng Đăng nhập, Đăng ký và Đăng xuất sử dụng Firebase Authentication.*
+
+---
+
 ### Bài tập 18: Quản lý công việc - TodoList App (ViecCanLam)
 [Chi tiết bài tập](./ViecCanLam/app/src/main/java/dat/nguyenvan/vieccanlam/MainActivity.java)
 
