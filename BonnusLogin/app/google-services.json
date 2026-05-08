@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707025807111",
+    "project_id": "login-f9cf6",
+    "storage_bucket": "login-f9cf6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707025807111:android:ca7e1a8e4cc7a8e1b587a2",
+        "android_client_info": {
+          "package_name": "dat.nguyenvan.bonnuslogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeHtErDVLkcxGJiizTm6-pw80e3lLkpmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
