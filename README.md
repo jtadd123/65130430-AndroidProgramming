@@ -24,6 +24,19 @@
 
 ---
 
+### Bài tập 18: Quản lý công việc - TodoList App (ViecCanLam)
+[Chi tiết bài tập](./ViecCanLam/app/src/main/java/dat/nguyenvan/vieccanlam/MainActivity.java)
+
+![ViecCanLam Giao diện](./Images/vieccanlamgiaodien.jpg)
+![ViecCanLam Chức năng](./Images/vieccanlamcacchucnang.jpg)
+![ViecCanLam Chi tiết 1](./Images/vieccanlamchucnang1.jpg)
+![ViecCanLam Chi tiết 2](./Images/vieccanlamchucnang2.jpg)
+![ViecCanLam Chi tiết 3](./Images/vclchucnang2.jpg)
+![ViecCanLam Chi tiết 4](./Images/vclchucnang3.jpg)
+*Ứng dụng TodoList tích hợp Firebase Realtime Database. Thực hiện các thao tác CRUD (thêm, sửa, xóa) công việc.*
+
+---
+
 ### Bài tập 17: Quản lý chi tiêu - Firebase Example (QuanLyChiTieu)
 [Chi tiết bài tập](./QuanLyChiTieu/app/src/main/java/dat/nguyenvan/quanlychitieu/MainActivity.java)
 
