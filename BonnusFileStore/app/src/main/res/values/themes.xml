@@ -1,0 +1,11 @@
+<resources>
+    <style name="Base.Theme.BonnusFileStore" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#2563EB</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="android:colorBackground">#F0F4FF</item>
+        <item name="android:windowBackground">#F0F4FF</item>
+    </style>
+
+    <style name="Theme.BonnusFileStore" parent="Base.Theme.BonnusFileStore" />
+</resources>

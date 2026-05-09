@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365551811134",
+    "project_id": "bonnusfilestore",
+    "storage_bucket": "bonnusfilestore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365551811134:android:88b566eb923a5ac37b2f6f",
+        "android_client_info": {
+          "package_name": "dat.nguyenvan.bonnusfilestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuAEhhx6ECCtVWr5AXb_BOJVKuJn28Dks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
