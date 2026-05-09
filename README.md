@@ -24,6 +24,15 @@
 
 ---
 
+### Bài tập 20: Quản lý sinh viên - Firebase Cloud Firestore (BonnusFileStore)
+[Chi tiết bài tập](./BonnusFileStore/app/src/main/java/dat/nguyenvan/bonnusfilestore/MainActivity.java)
+
+![BonnusFileStore Screenshot 1](./Images/filestore.jpg)
+![BonnusFileStore Screenshot 2](./Images/filestore2.jpg)
+*Ứng dụng quản lý thông tin sinh viên tích hợp Firebase Cloud Firestore. Thực hiện các thao tác CRUD (thêm, sửa, xóa) dữ liệu.*
+
+---
+
 ### Bài tập 19: Đăng nhập & Đăng ký - Firebase Authentication (BonnusLogin)
 [Chi tiết bài tập](./BonnusLogin/app/src/main/java/dat/nguyenvan/bonnuslogin/LoginActivity.java)
 
@@ -186,7 +195,7 @@
 ### Bài tập 1: Hello Android (HelloAndroid)
 [Chi tiết bài tập](./HelloAndroid/app/src/main/java/com/dat/helloandroid/MainActivity.java)
 
-![HelloAndroid Screenshot](./Images/helloworld.jpg)
+![HelloAndroid Screenshot](./Images/helloandroid.jpg)
 *Ứng dụng Android đầu tiên hiển thị dòng chữ chào mừng.*
 
 ---
