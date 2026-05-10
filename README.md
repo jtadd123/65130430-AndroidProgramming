@@ -12,18 +12,6 @@
 ---
 *Quá trình thực hiện bài tập*
 
-### Bài Thi Giữa Kỳ: Ứng dụng tổng hợp (BaiThi)
-[Chi tiết bài tập](./BaiThi/app/src/main/java/thigk2/nguyenvandat/baithi/MainActivity.java)
-
-![BaiThi Home](./Images/home.jpg)
-![BaiThi Chức năng 1](./Images/chucnang1.jpg)
-![BaiThi Chức năng 2](./Images/chucnang2.jpg)
-![BaiThi Chức năng 3](./Images/chucnang3.jpg)
-![BaiThi Chức năng 4](./Images/chucnang4.jpg)
-*Ứng dụng thi giữa kỳ gồm 4 chức năng: Tính chu vi & diện tích hình chữ nhật, Danh sách thành phố (ListView tùy chỉnh), Điểm du lịch Nha Trang (ListView với hình ảnh), và Thông tin cá nhân.*
-
----
-
 ### Bài tập 20: Quản lý sinh viên - Firebase Cloud Firestore (BonnusFileStore)
 [Chi tiết bài tập](./BonnusFileStore/app/src/main/java/dat/nguyenvan/bonnusfilestore/MainActivity.java)
 
@@ -65,14 +53,26 @@
 
 ---
 
+### Bài Thi Giữa Kỳ: Ứng dụng tổng hợp (BaiThi)
+[Chi tiết bài tập](./BaiThi/app/src/main/java/thigk2/nguyenvandat/baithi/MainActivity.java)
+
+![BaiThi Home](./Images/home.jpg)
+![BaiThi Chức năng 1](./Images/chucnang1.jpg)
+![BaiThi Chức năng 2](./Images/chucnang2.jpg)
+![BaiThi Chức năng 3](./Images/chucnang3.jpg)
+![BaiThi Chức năng 4](./Images/chucnang4.jpg)
+*Ứng dụng thi giữa kỳ gồm 4 chức năng: Tính chu vi & diện tích hình chữ nhật, Danh sách thành phố (ListView tùy chỉnh), Điểm du lịch Nha Trang (ListView với hình ảnh), và Thông tin cá nhân.*
+
+---
+
 ### Bài tập 16: Ôn tập Bottom Navigation Menu (OnThi_BottomNavigationMenu)
 [Chi tiết bài tập](./OnThi_BottomNavigationMenu/app/src/main/java/thi/dat65130430/onthi_bottomnavigationmenu/MainActivity.java)
 
-![Bottom Navigation Screenshot 1](./Images/BottomNavigationView1.jpg)
-![Bottom Navigation Screenshot 2](./Images/BottomNavigationView2.jpg)
-![Bottom Navigation Screenshot 3](./Images/BottomNavigationView3.jpg)
-![Bottom Navigation Screenshot 4](./Images/BottomNavigationView4.jpg)
-![Bottom Navigation Screenshot 5](./Images/BottomNavigationView5.jpg)
+![Bottom Navigation Screenshot 1](./Images/OnThi_BottomNavigationMenu1.jpg)
+![Bottom Navigation Screenshot 2](./Images/OnThi_BottomNavigationMenu2.jpg)
+![Bottom Navigation Screenshot 3](./Images/OnThi_BottomNavigationMenu3.jpg)
+![Bottom Navigation Screenshot 4](./Images/OnThi_BottomNavigationMenu4.jpg)
+![Bottom Navigation Screenshot 5](./Images/OnThi_BottomNavigationMenu5.jpg)
 *Ứng dụng ôn tập sử dụng Bottom Navigation Menu để chuyển đổi giữa các Fragment (Trang chủ, Bài học, Thống kê).*
 
 ---
@@ -80,9 +80,9 @@
 ### Bài tập 15: Học Android Fragment (FragmentEx_static_dynamic_replace)
 [Chi tiết bài tập](./FragmentEx_static_dynamic_replace/app/src/main/java/com/dat/fragmentex_static_dynamic_replace/MainActivity.java)
 
-![Fragment Screenshot 1](./Images/fragment1.jpg)
-![Fragment Screenshot 2](./Images/fragment2.jpg)
-![Fragment Screenshot 3](./Images/fragment3.jpg)
+![Fragment Screenshot 1](./Images/FragmentEx_static_dynamic_replace1.jpg)
+![Fragment Screenshot 2](./Images/FragmentEx_static_dynamic_replace2.jpg)
+![Fragment Screenshot 3](./Images/FragmentEx_static_dynamic_replace3.jpg)
 *Ứng dụng minh họa cách sử dụng Fragment tĩnh, Fragment động và thay thế (replace) Fragment trong Android.*
 
 ---
@@ -90,8 +90,8 @@
 ### Bài tập 14: Chuyển màn hình (ListViewMultiDataApp)
 [Chi tiết bài tập](./ListViewMultiDataApp/app/src/main/java/com/dat/listviewmultidataapp/MainActivity.java)
 
-![ListViewMultiDataApp Screenshot 1](./Images/menudoimanhinh01.jpg)
-![ListViewMultiDataApp Screenshot 2](./Images/menudoimanhinh02.jpg)
+![ListViewMultiDataApp Screenshot 1](./Images/ListViewMultiDataApp1.jpg)
+![ListViewMultiDataApp Screenshot 2](./Images/ListViewMultiDataApp2.jpg)
 *Ứng dụng hiển thị danh sách dữ liệu phức hợp và thực hiện chuyển đổi giữa các màn hình.*
 
 ---
@@ -99,7 +99,7 @@
 ### Bài tập 13: Đọc báo tổng hợp (DocBaoTongHop)
 [Chi tiết bài tập](./DocBaoTongHop/app/src/main/java/com/dat/docbaotonghop/MainActivity.java)
 
-![DocBaoTongHop Screenshot](./Images/docbaotonghop.jpg)
+![DocBaoTongHop Screenshot](./Images/DocBaoTongHop.jpg)
 *Ứng dụng đọc báo với giao diện danh sách các tin tức tổng hợp.*
 
 ---
@@ -107,7 +107,7 @@
 ### Bài tập 12: Danh sách cảnh quan (DanhSachCanhQuan)
 [Chi tiết bài tập](./DanhSachCanhQuan/app/src/main/java/com/dat/danhsachcanhquan/MainActivity.java)
 
-![DanhSachCanhQuan Screenshot](./Images/danhsachcanhquan.jpg)
+![DanhSachCanhQuan Screenshot](./Images/DanhSachCanhQuan.jpg)
 *Ứng dụng hiển thị danh sách các cảnh quan đẹp sử dụng Custom Adapter.*
 
 ---
@@ -115,7 +115,7 @@
 ### Bài tập 11: Danh sách món ăn (AppMonAn)
 [Chi tiết bài tập](./AppMonAn/app/src/main/java/com/dat/appmonan/MainActivity.java)
 
-![AppMonAn Screenshot](./Images/monan.jpg)
+![AppMonAn Screenshot](./Images/AppMonAn.jpg)
 *Ứng dụng hiển thị danh sách món ăn sử dụng ListView/RecyclerView với thông tin chi tiết.*
 
 ---
@@ -123,7 +123,7 @@
 ### Bài tập 10: Danh sách đội bóng (DanhSachDoiBong)
 [Chi tiết bài tập](./DanhSachDoiBong/app/src/main/java/com/dat/danhsachdoibong/MainActivity.java)
 
-![DanhSachDoiBong Screenshot](./Images/danhsachdoibong.jpg)
+![DanhSachDoiBong Screenshot](./Images/DanhSachDoiBong.jpg)
 *Sử dụng Custom ListView để hiển thị danh sách các đội bóng đá.*
 
 ---
@@ -131,7 +131,7 @@
 ### Bài tập 9: Danh sách tỉnh thành (DanhSachTinhThanh)
 [Chi tiết bài tập](./DanhSachTinhThanh/app/src/main/java/com/dat/danhsachtinhthanh/MainActivity.java)
 
-![DanhSachTinhThanh Screenshot](./Images/dstinhthanh.jpg)
+![DanhSachTinhThanh Screenshot](./Images/DanhSachTinhThanh.jpg)
 *Sử dụng ListView cơ bản để hiển thị danh sách các tỉnh thành tại Việt Nam.*
 
 ---
@@ -139,7 +139,7 @@
 ### Bài tập 8: Tính điểm trung bình (AverageScoreApp)
 [Chi tiết bài tập](./AverageScoreApp/app/src/main/java/com/dat/averagescoreapp/MainActivity.java)
 
-![AverageScoreApp Screenshot](./Images/diemtrungbinh.jpg)
+![AverageScoreApp Screenshot](./Images/AverageScoreApp.jpg)
 *Ứng dụng nhập điểm các môn học và tính điểm trung bình tích lũy.*
 
 ---
@@ -147,7 +147,7 @@
 ### Bài tập 7: Chuyển đổi nhiệt độ (TemperatureConverterApp)
 [Chi tiết bài tập](./TemperatureConverterApp/app/src/main/java/com/dat/temperatureconverterapp/MainActivity.java)
 
-![TemperatureConverterApp Screenshot](./Images/nhietdo.jpg)
+![TemperatureConverterApp Screenshot](./Images/TemperatureConverterApp.jpg)
 *Ứng dụng chuyển đổi qua lại giữa độ C và độ F.*
 
 ---
@@ -155,7 +155,7 @@
 ### Bài tập 6: Giải phương trình bậc 2 (AppGiaiPTBac2)
 [Chi tiết bài tập](./AppGiaiPTBac2/app/src/main/java/com/dat/appgiaiptbac2/MainActivity.java)
 
-![AppGiaiPTBac2 Screenshot](./Images/ptbac2.jpg)
+![AppGiaiPTBac2 Screenshot](./Images/AppGiaiPTBac2.jpg)
 *Ứng dụng giải phương trình bậc 2 (ax² + bx + c = 0) với các trường hợp nghiệm.*
 
 ---
@@ -163,7 +163,7 @@
 ### Bài tập 5: Tính chỉ số BMI (AppBMI)
 [Chi tiết bài tập](./AppBMI/app/src/main/java/com/dat/appbmi/MainActivity.java)
 
-![AppBMI Screenshot](./Images/bmi.jpg)
+![AppBMI Screenshot](./Images/AppBMI.jpg)
 *Ứng dụng tính toán chỉ số khối cơ thể (BMI) dựa trên chiều cao và cân nặng.*
 
 ---
@@ -171,7 +171,7 @@
 ### Bài tập 4: Các phép toán cơ bản (LinearLayout02)
 [Chi tiết bài tập](./LinearLayout02/app/src/main/java/com/dat/linearlayout02/MainActivity.java)
 
-![LinearLayout02 Screenshot](./Images/LinearLayout02pheptoan.jpg)
+![LinearLayout02 Screenshot](./Images/LinearLayout02.jpg)
 *Ứng dụng thực hiện Cộng, Trừ, Nhân, Chia sử dụng Layout lồng nhau.*
 
 ---
@@ -179,7 +179,7 @@
 ### Bài tập 3: Giao diện LinearLayout (Linearlayout01)
 [Chi tiết bài tập](./Linearlayout01/app/src/main/java/com/dat/linearlayout01/MainActivity.java)
 
-![Linearlayout01 Screenshot](./Images/LinearLayout01.jpg)
+![Linearlayout01 Screenshot](./Images/Linearlayout01.jpg)
 *Thực hành thiết kế giao diện Android với LinearLayout cơ bản.*
 
 ---
@@ -187,7 +187,7 @@
 ### Bài tập 2: Tính tổng hai số (XuLySuKien_TinhTong)
 [Chi tiết bài tập](./XuLySuKien_TinhTong/app/src/main/java/com/dat/xulysukien_tinhtong/MainActivity.java)
 
-![TinhTong Screenshot](./Images/tinhtong.jpg)
+![TinhTong Screenshot](./Images/XuLySuKien_TinhTong.jpg)
 *Ứng dụng xử lý sự kiện click để tính tổng của hai số nguyên.*
 
 ---
